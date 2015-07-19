@@ -13,4 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require d3
+//= require word_cloud_layout
+//= require custom_word_cloud

@@ -1,2 +1,9 @@
 <h1>Clouds#home</h1>
 <p>Find me in app/views/clouds/home.html.erb</p>
+
+<%= form_tag clouds_search_path, :method => 'get' do %>
+    <p>
+      <%= text_field_tag :search, params[:search] %>
+      <%= submit_tag "Search", :name => nil %>
+    </p>
+<% end %>

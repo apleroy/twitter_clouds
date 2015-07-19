@@ -1,2 +1,9 @@
 <h1>Clouds#search</h1>
 <p>Find me in app/views/clouds/search.html.erb</p>
+
+<p><%= raw(@counts) %></p>
+
+
+<script>
+    drawCloud(<%= raw(@counts) %>);
+</script>
